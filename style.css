@@ -1,0 +1,16 @@
+@charset "utf-8"
+
+body{
+	font-family: sans-serif;
+}
+h1{
+	font-size: 21px;
+	color: red;
+}
+h2{
+	font-size: 18px;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
