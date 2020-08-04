@@ -17,6 +17,7 @@ p{
 	list-style-type: none;
 }
 .profile {
+	margin-top: 16px;
 	padding: 16px;
 	border: 1px solid #095cdc;
 }
