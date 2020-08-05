@@ -1,16 +1,25 @@
-@charset "utf-8"
-
+@charest "utf-8"
 body{
-	font-size: 15px
+  font-size: 15px
+  line-height: 1.5;
 	font-family: sans-serif;
-	line-height: 1.5;
 }
+
+.headline {
+	text-align: center;
+}
+
 .lead {
 	font-weight: bold;
 }
 h1{
 	font-size: 21px;
 }
+h1 .subtitle{
+  font-size:19px;
+  font-weight: normal;
+}
+  
 h2{
 	font-size: 18px;
 }
@@ -21,6 +30,9 @@ p{
 .info {
 	list-style-type: none;
 }
+.important {
+  color:red;
+}
 .profile {
 	margin-top: 16px;
 	padding: 16px;
@@ -30,3 +42,26 @@ p{
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+.note {
+  padding-left: 1em;
+  text-indent: -1em;
+  color: red;
+}
+a {
+  color:#0073bc;
+}
+a:link {
+  color:#0073bc;
+}
+a:visited {
+  color:#02314;
+}
+a:hover {
+  color:#b74dbf2;
+  }
+a:active {
+  color: #4ca4e8;
+}
+
+
